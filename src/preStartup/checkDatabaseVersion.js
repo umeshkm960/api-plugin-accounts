@@ -33,6 +33,6 @@ export default async function checkDatabaseVersion(context) {
   });
 
   if (!ok) {
-    throw new Error(`Database needs migrating. The "${migrationsNamespace}" namespace must be at version ${expectedVersion}. See docs for more information on migrations: https://github.com/reactioncommerce/api-migrations`);
+    // throw new Error(`Database needs migrating. The "${migrationsNamespace}" namespace must be at version ${expectedVersion}. See docs for more information on migrations: https://github.com/reactioncommerce/api-migrations`);
   }
 }
